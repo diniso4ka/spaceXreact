@@ -1,13 +1,13 @@
 import '../App.scss'
 
 const Header = () => {
-   return (<div className='header-wrapper'>
-      <div class="header-wrapper">
-         <div class='header'>
-            <div class='header__logo'>
-               <img class="header__logo-image" src='img/ugl.png' />
+   return (
+      <div className="header-wrapper">
+         <div className='header'>
+            <div className='header__logo'>
+               <img className="header__logo-image" src='img/ugl.png' />
             </div>
-            <nav class='header__nav'>
+            <nav className='header__nav'>
                <ul>
                   <li>Main</li>
                   <li>Technologies</li>
@@ -19,7 +19,7 @@ const Header = () => {
             </nav>
          </div>
       </div>
-   </div>)
+   )
 }
 
 export default Header
