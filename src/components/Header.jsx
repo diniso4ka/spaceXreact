@@ -1,4 +1,4 @@
-import '../App.css'
+import '../App.scss'
 
 const Header = () => {
    return (<div className='header-wrapper'>
