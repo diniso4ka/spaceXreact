@@ -5,7 +5,7 @@ const Header = () => {
       <div className="header-wrapper">
          <div className='header'>
             <div className='header__logo'>
-               <img className="header__logo-image" src='img/ugl.png' />
+               <img className="header__logo-image" src='https://github.com/diniso4ka/spaceXreact/blob/main/public/img/ugl.png?raw=true' />
             </div>
             <nav className='header__nav'>
                <ul>
