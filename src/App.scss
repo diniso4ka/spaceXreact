@@ -175,12 +175,20 @@ body {
          transition: 0.2s ease-in-out;
       }
 
+      @media (max-width: 612px) {
+         padding: 20px;
+      }
+
+      @media (max-width: 470px) {
+         padding: 10px;
+      }
+
    }
 
 
    .grid-item2 {
       background: linear-gradient(36deg, rgba(255, 255, 255, 0.1), transparent 50%);
-      padding: 40px;
+      padding: 30px;
       cursor: pointer;
 
       &.grid-item2:hover {
@@ -189,11 +197,19 @@ body {
          border-left: 1px solid rgba(255, 255, 255, 0.3);
          transition: 0.2s ease-in-out;
       }
+
+      @media (max-width: 612px) {
+         padding: 20px;
+      }
+
+      @media (max-width: 470px) {
+         padding: 10px;
+      }
    }
 
    .grid-item3 {
       background: linear-gradient(200deg, rgba(255, 255, 255, 0.1), transparent 50%);
-      padding: 40px;
+      padding: 30px;
       cursor: pointer;
 
       &.grid-item3:hover {
@@ -202,11 +218,19 @@ body {
          border-right: 1px solid rgba(255, 255, 255, 0.3);
          transition: 0.2s ease-in-out;
       }
+
+      @media (max-width: 612px) {
+         padding: 20px;
+      }
+
+      @media (max-width: 470px) {
+         padding: 10px;
+      }
    }
 
    .grid-item4 {
       background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), transparent 50%);
-      padding: 40px;
+      padding: 30px;
       cursor: pointer;
 
       &.grid-item4:hover {
@@ -215,7 +239,17 @@ body {
          border-left: 1px solid rgba(255, 255, 255, 0.3);
          transition: 0.2s ease-in-out;
       }
+
+      @media (max-width: 612px) {
+         padding: 20px;
+      }
+
+      @media (max-width: 470px) {
+         padding: 10px;
+      }
    }
+
+
 }
 
 
@@ -280,31 +314,37 @@ body {
       padding: 0 10px 0 0;
    }
 
+   .grid-number {
+      font-size: 20px;
+   }
+
 
 
    .content {
       margin: 10px 10px;
    }
 
-   .grid-item1 {
-      padding: 20px;
-   }
 
-   .grid-item2 {
-      padding: 20px;
-   }
-
-   .grid-item3 {
-      padding: 20px;
-   }
-
-   .grid-item4 {
-      padding: 20px;
-   }
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 470px) {
+
+   .grid-item1 {
+      padding: 10px;
+   }
+
+   .grid-item2 {
+      padding: 10px;
+   }
+
+   .grid-item3 {
+      padding: 10px;
+   }
+
+   .grid-item4 {
+      padding: 10px;
+   }
 
    h1 {
       margin: 0 0 20px 0;
@@ -323,19 +363,5 @@ body {
       margin: 10px 10px;
    }
 
-   .grid-item1 {
-      padding: 10px;
-   }
 
-   .grid-item2 {
-      padding: 10px;
-   }
-
-   .grid-item3 {
-      padding: 10px;
-   }
-
-   .grid-item4 {
-      padding: 10px;
-   }
 }
