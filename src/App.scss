@@ -160,6 +160,10 @@ body {
 
    .grid-number {
       font-size: 70px;
+
+      @media (max-width: 612px) {
+         font-size: 50px;
+      }
    }
 
 
@@ -314,9 +318,7 @@ body {
       padding: 0 10px 0 0;
    }
 
-   .grid-number {
-      font-size: 20px;
-   }
+
 
 
 
