@@ -11,14 +11,14 @@ const Header = () => {
                <ul>
                   <li>Main</li>
                   <li>Technologies</li>
-                  <li>Schedule</li>
+                  <li>Flight schedule</li>
                   <li>Guarantees</li>
-                  <li>About</li>
+                  <li>About us</li>
                   <li>Contacts</li>
                </ul>
             </nav>
          </div>
-      </div >
+      </div>
    )
 }
 
