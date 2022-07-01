@@ -1,5 +1,5 @@
 import './null.css'
-import './App.scss';
+import './App.css';
 
 
 import Header from './components/Header';
