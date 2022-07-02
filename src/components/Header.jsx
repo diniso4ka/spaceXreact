@@ -2,6 +2,9 @@ import '../App.scss'
 import { Link } from 'react-router-dom'
 
 const Header = ({ isActive, setIsActive }) => {
+
+
+
    return (
       <div className="header-wrapper">
          <div className='header'>
