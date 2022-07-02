@@ -149,6 +149,7 @@ body {
 
 
          &:hover {
+            color: #ff5e00;
             border-image-source: linear-gradient(150deg, #263e66, #09213d, #111f2d, #23599c);
             opacity: 0.8;
             transition: 0.3s ease-in-out, transform 0.2s ease-in-out;
@@ -210,6 +211,9 @@ body {
 
    .grid-item1 {
       background: linear-gradient(330deg, rgba(255, 255, 255, 0.1), transparent 50%);
+      border-width: 1px;
+      border-bottom: 1px solid rgba(transparent, 0);
+      border-right: 1px solid rgba(transparent, 0);
       padding: 40px;
       cursor: pointer;
 
@@ -233,6 +237,8 @@ body {
 
    .grid-item2 {
       background: linear-gradient(36deg, rgba(255, 255, 255, 0.1), transparent 50%);
+      border-bottom: 1px solid rgba(transparent, 0);
+      border-left: 1px solid rgba(transparent, 0);
       padding: 30px;
       cursor: pointer;
 
@@ -254,6 +260,8 @@ body {
 
    .grid-item3 {
       background: linear-gradient(200deg, rgba(255, 255, 255, 0.1), transparent 50%);
+      border-top: 1px solid rgba(transparent, 0);
+      border-right: 1px solid rgba(transparent, 0);
       padding: 30px;
       cursor: pointer;
 
@@ -275,6 +283,8 @@ body {
 
    .grid-item4 {
       background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), transparent 50%);
+      border-top: 1px solid rgba(transparent, 0);
+      border-left: 1px solid rgba(transparent, 0);
       padding: 30px;
       cursor: pointer;
 
