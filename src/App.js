@@ -28,7 +28,7 @@ function App() {
             setIsActive={setIsActive}
           />
           <Routes>
-            <Route path='/' element={<Content />} />
+            <Route path='/spaceXreact' element={<Content />} />
             <Route path='/technologies' element={< Technologies />} />
             <Route path='/aboutus' element={<AboutMe />} />
             <Route path='/code' element={<Code />} />
