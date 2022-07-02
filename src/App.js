@@ -8,6 +8,9 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Technologies from './components/Technologies';
 import AboutMe from './components/AboutUs'
+import Code from './components/Code';
+import Contacts from './components/Contacts';
+
 
 
 function App() {
@@ -28,6 +31,8 @@ function App() {
             <Route path='/' element={<Content />} />
             <Route path='/technologies' element={< Technologies />} />
             <Route path='/aboutus' element={<AboutMe />} />
+            <Route path='/code' element={<Code />} />
+            <Route path='/contacts' element={<Contacts />} />
           </Routes>
         </div>
       </div>

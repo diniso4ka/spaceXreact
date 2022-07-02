@@ -49,8 +49,9 @@ body {
             cursor: pointer;
 
             &.active {
-               font-size: 26px;
+               transform: translateY(-2px);
                color: #ff3f04;
+               transition: 0.3s ease-in-out;
 
             }
 
@@ -148,6 +149,7 @@ body {
 
          &:hover {
             border-image-source: linear-gradient(150deg, #263e66, #09213d, #111f2d, #23599c);
+            opacity: 0.8;
             transition: 0.3s ease-in-out, transform 0.2s ease-in-out;
 
          }
@@ -310,11 +312,26 @@ body {
    margin-bottom: 50px;
 }
 
-.technologies-items {
+
+
+.info-items {
    font-size: 30px;
    margin: 0 0 30px 0;
 
+   a {
+      color: #fff;
+      font-size: 40px;
+
+      &:hover {
+         color: #ff3f04;
+
+         transition: 0.3s ease-in-out;
+      }
+   }
+
 }
+
+
 
 
 
