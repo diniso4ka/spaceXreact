@@ -6,7 +6,7 @@ const Header = ({ isActive, setIsActive }) => {
       <div className="header-wrapper">
          <div className='header'>
             <div className='header__logo'>
-               <img className="header__logo-image" src='https://github.com/diniso4ka/spaceXreact/blob/main/public/img/ugl.png?raw=true' />
+               <Link to='/spaceXreact' onClick={() => setIsActive('main')}><img className="header__logo-image" src='https://github.com/diniso4ka/spaceXreact/blob/main/public/img/ugl.png?raw=true' /></Link>
             </div>
             <nav className='header__nav'>
                <ul>
