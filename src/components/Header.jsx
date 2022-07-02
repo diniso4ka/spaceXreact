@@ -10,7 +10,7 @@ const Header = ({ isActive, setIsActive }) => {
             </div>
             <nav className='header__nav'>
                <ul>
-                  <Link to='/' onClick={() => setIsActive('main')} ><li className={isActive === 'main' ? 'active' : ''} >Main</li></Link>
+                  <Link to='/spaceXreact' onClick={() => setIsActive('main')} ><li className={isActive === 'main' ? 'active' : ''} >Main</li></Link>
                   <Link to='/technologies' onClick={() => setIsActive('technologies')}><li className={isActive === 'technologies' ? 'active' : ''}>Technologies</li></Link>
                   <Link to='/code' onClick={() => setIsActive('code')}><li className={isActive === 'code' ? 'active' : ''}>My code</li></Link>
                   <Link to='/aboutus' onClick={() => setIsActive('aboutus')}><li className={isActive === 'aboutus' ? 'active' : ''}>About us</li></Link>
