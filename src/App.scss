@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 body {
    background-color: black;
    color: #fff;
@@ -53,7 +55,7 @@ body {
 
             &.active {
                transform: translateY(-2px);
-               color: #ff3f04;
+               color: $orange;
 
 
 
@@ -107,7 +109,7 @@ body {
 
       h1 {
          font-size: 25px;
-         background: linear-gradient(100deg, #ffffff 10%, #ff3f04 90%);
+         background: linear-gradient(100deg, #ffffff 10%, $orange 90%);
          -webkit-background-clip: text;
          -webkit-text-fill-color: transparent;
          display: inline-block;
@@ -157,7 +159,7 @@ body {
 
 
          &:hover {
-            color: #ff5e00;
+            color: $orange;
             border-image-source: linear-gradient(150deg, #263e66, #09213d, #111f2d, #23599c);
             opacity: 0.8;
             transform: scale(1.02);
@@ -351,7 +353,7 @@ body {
       font-size: 40px;
 
       &:hover {
-         color: #ff3f04;
+         color: $orange;
 
          transition: 0.3s ease-in-out;
       }
