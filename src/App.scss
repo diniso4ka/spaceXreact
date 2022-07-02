@@ -219,7 +219,7 @@ body {
 
       &:hover {
          background: linear-gradient(330deg, rgba(255, 255, 255, 0.3), transparent 50%);
-         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+         border-bottom: 1px solid (rgba(255, 255, 255, 0.3));
          border-right: 1px solid rgba(255, 255, 255, 0.3);
          transition: 0.2s ease-in-out;
       }
@@ -231,7 +231,6 @@ body {
       @media (max-width: 470px) {
          padding: 10px;
       }
-
    }
 
 
@@ -407,14 +406,9 @@ body {
       padding: 0 10px 0 0;
    }
 
-
-
-
-
    .content {
       margin: 10px 10px;
    }
-
 
 }
 

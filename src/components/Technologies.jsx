@@ -2,8 +2,8 @@ import '../App.scss'
 
 const Technologies = () => {
    const techItems = ['HTML, CSS, SCSS, CSS Modules, BEM',
-      'JavaScript',
-      'ReactJSб Hooks, Redux(in progress)',
+      'JavaScript, TypeScript(in progress)',
+      'ReactJS, Hooks, Redux(in progress)',
       'ReactRouterDom, Skeleton, RestApi(axios, fetch)'
    ]
 
