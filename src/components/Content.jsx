@@ -10,9 +10,10 @@ const Content = () => {
 
             <div className='button-start'>
                Start the journey
-               <img className="imgleft" src="img/01.png" alt="" />
-               <img src="img/02.png" className="imgright" alt="" />
+               <img className="imgleft" src="https://github.com/diniso4ka/spaceXreact/blob/main/public/img/01.png?raw=true" alt="" />
+               <img src="https://github.com/diniso4ka/spaceXreact/blob/main/public/img/02.png?raw=true" className="imgright" alt="" />
             </div>
+
 
 
 
