@@ -2,8 +2,8 @@ import '../App.scss'
 
 const Technologies = () => {
    return (
-      <div className="technologies-wrapper">
-         <h2 className='technologies-title'>My stack:</h2>
+      <div className="component__wrapper">
+         <h2 className='technologies-title title'>My stack:</h2>
          <ul className='technologies-list'>
             <li className='technologies-items'>HTML, CSS, SCSS, CSS Modules, BEM</li>
             <li className='technologies-items'>JavaScript</li>

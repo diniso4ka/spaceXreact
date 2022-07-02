@@ -10,11 +10,11 @@ const Header = ({ isActive, setIsActive }) => {
             </div>
             <nav className='header__nav'>
                <ul>
-                  <Link to='/' ><li className={isActive === 'main' ? 'active' : ''}>Main</li></Link>
-                  <Link to='/technologies'><li>Technologies</li></Link>
+                  <Link to='/' onClick={() => setIsActive('main')} ><li className={isActive === 'main' ? 'active' : ''} >Main</li></Link>
+                  <Link to='/technologies' onClick={() => setIsActive('technologies')}><li className={isActive === 'technologies' ? 'active' : ''}>Technologies</li></Link>
                   <li>Flight schedule</li>
                   <li>Guarantees</li>
-                  <li>About us</li>
+                  <Link to='/aboutus' onClick={() => setIsActive('aboutus')}><li className={isActive === 'aboutus' ? 'active' : ''}>About us</li></Link>
                   <li>Contacts</li>
                </ul>
             </nav>

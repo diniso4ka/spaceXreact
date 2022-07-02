@@ -48,6 +48,11 @@ body {
             font-size: 24px;
             cursor: pointer;
 
+            &.active {
+               font-size: 26px;
+               color: #ff3f04;
+
+            }
 
 
             &:hover {
@@ -63,6 +68,15 @@ body {
    }
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -280,12 +294,17 @@ body {
 
 }
 
-.technologies-wrapper {
+.component__wrapper {
    max-width: 600px;
    margin: 100px auto;
+
+   p {
+      font-size: 20px;
+      line-height: 25px;
+   }
 }
 
-.technologies-title {
+.title {
    font-size: 50px;
    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
    margin-bottom: 50px;

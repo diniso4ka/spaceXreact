@@ -7,6 +7,7 @@ import React from 'react';
 import Header from './components/Header';
 import Content from './components/Content';
 import Technologies from './components/Technologies';
+import AboutMe from './components/AboutUs'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Content />} />
             <Route path='/technologies' element={< Technologies />} />
+            <Route path='/aboutus' element={<AboutMe />} />
           </Routes>
         </div>
       </div>
